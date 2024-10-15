@@ -9,37 +9,63 @@ predecir el estado fetal como la variable objetivo. A continuación, se describe
 variables utilizadas:
 
 • Id: Identificador único del feto.
+
 • b: Hora inicial.
+
 • e: Hora final.
+
 • LBE: Frecuencia cardiaca del feto.
+
 • AC: Número de aceleraciones por segundo.
+
 • FM: Número de movimientos fetales por segundo.
+
 • UC: Número de contracciones uterinas por segundo.
+
 • ASTV: Porcentaje de tiempo con variabilidad anormal a corto plazo.
+
 • MSTV: Valor medio de la variabilidad a corto plazo.
+
 • ALTV: Porcentaje de tiempo con variabilidad anormal a largo plazo.
+
 • MLTV: Valor medio de la variabilidad a largo plazo.
+
 • DL: Número de desaceleraciones leves por segundo.
+
 • DS: Número de desaceleraciones severas por segundo.
+
 • DP: Número de desaceleraciones prolongadas por segundo.
+
 • DR: Número de desaceleraciones repetitivas por segundo.
+
 • Anchura: Anchura del histograma de la frecuencia cardiaca fetal (FHR).
-• Min: Valor mínimo (baja frecuencia) del histograma de la frecuencia cardiaca 
-fetal (FCF).
+
+• Min: Valor mínimo (baja frecuencia) del histograma de la frecuencia cardiaca fetal (FCF).
+
 • Max: Valor máximo (alta frecuencia) del histograma de la FCF.
+
 • Nmax: Número de picos del histograma.
+
 • Nzeros: Número de ceros del histograma.
+
 • Mode: Moda del histograma.
+
 • Mean: Media del histograma.
+
 • Median: Mediana del histograma.
+
 • Variance: Varianza del histograma.
+
 • Tendency: Tendencia del histograma.
+
 • Target: Código de clase del estado fetal.
 
 Para la creación del modelo, los datos se dividieron en conjuntos de entrenamiento y 
 prueba, con una proporción del 60% y 40%, respectivamente, garantizando la 
 diversidad de los datos y evitando sesgos.
+
 Algoritmo SVM (Support Vector Machine)
+
 El modelo de Support Vector Machine (SVM) fue elegido como uno de los principales 
 algoritmos debido a su capacidad para trabajar con problemas de clasificación 
 complejos y su robustez frente a los outliers. Para optimizar el rendimiento del modelo, 
