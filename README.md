@@ -7,6 +7,7 @@ datos médicos utilizando modelos de machine learning. El dataset contiene 2016
 registros con diversas variables relacionadas con la salud del feto, y nuestro objetivo es 
 predecir el estado fetal como la variable objetivo. A continuación, se describen las 
 variables utilizadas:
+
 • Id: Identificador único del feto.
 • b: Hora inicial.
 • e: Hora final.
